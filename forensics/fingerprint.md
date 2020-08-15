@@ -4,15 +4,15 @@ We got a rar archive file, after extracting it we got 7 images, i couldn't find 
 
 When running `strings` on `3.jpg` i see this base64 encoded value.
 
-![](../images/4.png)
+![](../images/4.PNG)
 
 Then i decode this value and i got the following hex content. 
 
-![](../images/5.png)
+![](../images/5.PNG)
 
 Then i decode this hexdump, i got the following text.
 
-![](../images/6.png)
+![](../images/6.PNG)
 
 Hmmmmm, we can see the Rar archive signature at the beginning of that text.
 
