@@ -1,17 +1,20 @@
 # Challenge 4 
-we first create an account and see the cookies, when we try to increase the cookie value, we got invalid padding.
+
+[Challenge Link](https://github.com/ascwg/Challenges/blob/master/Crypto/Challenge%204)
+
+We first create an account and see the cookies, when we try to increase the cookie value, we got invalid padding.
 
 ![](../images/challenge_4_1.jpg)
 
 So, it's AES CBC mode with wrong implementation, this challenge is Padding Orcale Attack.
 
-Now, Let's use padbuster tool to get the admin cookie 
+Now, Let's use padbuster tool to get the admin cookie.
 
 ![](../images/challenge_4_3.png)
 
 ![](../images/challenge_4_4.png)
 
-Admin cookie : `GO2kOl%2Bzii%2Fh1kIPhNYjKwAAAAAAAAAA`
+Admin cookie : `GO2kOl%2Bzii%2Fh1kIPhNYjKwAAAAAAAAAA`.
 
 ![](../images/challenge_4_5.jpg)
 
