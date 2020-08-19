@@ -4,7 +4,7 @@
 
 First, I loaded the binary into IDA, we can see at the named functions view there are `verifyFlag`, `printFlag` functions but the main function doesn't call any of them.
 
-![](../images/DOOM_1.PNG)
+![](../images/Doom_1.PNG)
 
 Taking a look at the verifyFlag function we can see it does the following :
 
@@ -24,7 +24,7 @@ Now, we need to get this function called by changing the rip to the address of t
 
 Then set a breakpoint before strcmp gets called.
 
-![](../images/DOOM_4.png)
+![](../images/DOOM_4.PNG)
 
 Examinig the rdi register we can find the hash.
 
