@@ -2,7 +2,7 @@
 
 [Challenge Link](https://github.com/ascwg/Challenges/raw/master/Reverse/check.rar)
 
-First, I loaded the binary into ida, I see some checks are made before it can reach this block of code that prints `Machine Ok`
+First, I loaded the binary into ida, I see some checks are made before it can reach this block of code that prints `Machine Ok`.
 
 ![](../images/1.PNG)
 
@@ -17,6 +17,6 @@ Now we can open the binary in gdb, bypass all the checks until it prints the fla
 ![](../images/3.PNG)
 
 
-we got the following base64 encoded value `QVNDV0d7M252X3Y0cjVfNHIzX3U1M2Z1bH0=`
+We got the following base64 encoded value `QVNDV0d7M252X3Y0cjVfNHIzX3U1M2Z1bH0=`.
 
-decode it and then we got the flag : **ASCWG{3nv_v4r5_4r3_u53ful}**
+Decode it and then we got the flag : **ASCWG{3nv_v4r5_4r3_u53ful}**
