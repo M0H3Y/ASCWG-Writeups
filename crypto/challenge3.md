@@ -1,5 +1,7 @@
 # Challenge 3 
 
+[Challenge Link](https://github.com/ascwg/Challenges/blob/master/Crypto/Challenge%203/output.txt)
+
 First, i tried to get factors of n from online sources, found nothing 
 so i tried to use some factorizing methods , and i found when
 using fermant factorization i got the following p and q using [X-RSA tool](https://github.com/X-Vector/X-RSA) .
