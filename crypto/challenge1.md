@@ -1,14 +1,16 @@
 # Challenge 1
 
+[Challenge Link](https://github.com/ascwg/Challenges/tree/master/Crypto/Challenge%201)
+
 Looking at the code we find that the flag is converted to an integer value and shifted 99998 bits to the left to give the last 200 decimal digits of the value. 
 
 Let's convert the problem into equation:
 ```
 c = flag⋅2^99998mod10^200
 ```
-we try to inverse 2^99998 on F10^200, but they are not coprime so its not possible.
+we try to inverse 2^99998 on F10^200, but they are not coprime so it's not possible.
 
-the prime factors of 10 is 2, 5 but φ(2)=1 it will not affect so we choose 5
+the prime factors of 10 is 2, 5 but φ(2)=1 will not affect so we choose 5
 
 the equation will be:
 ```
