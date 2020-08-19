@@ -1,6 +1,8 @@
 # check
 
-First, I loaded the binary into ida,i see some checks are made before it can reach this block of code that prints `Machine Ok`
+[Challenge Link](https://github.com/ascwg/Challenges/raw/master/Reverse/check.rar)
+
+First, I loaded the binary into ida, I see some checks are made before it can reach this block of code that prints `Machine Ok`
 
 ![](../images/1.PNG)
 
