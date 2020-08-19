@@ -1,6 +1,7 @@
 # Fingerprint 
 
 [Challenge Link](https://github.com/ascwg/Challenges/raw/master/Forensics/Fingerprint.rar)
+
 We got a rar archive file, after extracting it we got 7 images, i couldn't find anything interesting in any of them except the third image `3.jpg`.
 
 When running `strings` on `3.jpg` i saw this base64 encoded value.
